@@ -1,0 +1,194 @@
+---
+"Cemu":
+  files:
+    "<home>/Emulation/roms/wiiu/mlc01/usr/save":
+      tags:
+        - save
+      when:
+        - os: linux
+"Citra":
+  files:
+    "<home>/.var/app/org.citra_emu.citra/data/citra-emu/sdmc":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/org.citra_emu.citra/data/citra-emu/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"Dolphin":
+  files:
+    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"DuckStation":
+  files:
+    "<home>/Emulation/saves/duckstation/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/duckstation/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"MAME":
+  files:
+    "<home>/Emulation/saves/MAME/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/MAME/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"melonDS":
+  files:
+    "<home>/Emulation/saves/melonds/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/melonds/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"mGBA":
+  files:
+    "<home>/Emulation/saves/mgba/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/mgba/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"PCSX2":
+  files:
+    "<home>/Emulation/saves/pcsx2/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/pcsx2/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"PPSSPP":
+  files:
+    "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"PrimeHack":
+  files:
+    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"RetroArch":
+  files:
+    "<home>/.var/app/org.libretro.RetroArch/config/retroarch/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/org.libretro.RetroArch/config/retroarch/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"Rosalie's Mupen GUI":
+  files:
+    "<home>/Emulation/saves/RMG/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Emulation/saves/RMG/states":
+      tags:
+        - save-states
+      when:
+        - os: linux
+"RPCS3":
+  files:
+    "<home>/Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata":
+      tags:
+        - save
+      when:
+        - os: linux
+"Ryujinx":
+  files:
+    "<home>/.config/Ryujinx/bis/user/save":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.config/Ryujinx/bis/user/saveMeta":
+      tags:
+        - save-meta
+      when:
+        - os: linux
+"ScummVM":
+  files:
+    "<home>/Emulation/saves/scummvm/saves":
+      tags:
+        - save
+      when:
+        - os: linux
+"Vita3K":
+  files:
+    "<home>/Emulation/storage/Vita3K/ux0/user/00/savedata":
+      tags:
+        - save
+      when:
+        - os: linux
+"Xemu":
+  files:
+    "<home>/Emulation/storage/xemu":
+      tags:
+        - save
+      when:
+        - os: linux
+"Xenia":
+  files:
+    "<home>/Emulation/roms/xbox360/content":
+      tags:
+        - save
+      when:
+        - os: linux
+"Yuzu":
+  files:
+    "/Emulation/storage/yuzu/nand/user/save/":
+      tags:
+        - save
+      when:
+        - os: linux
