@@ -9,6 +9,8 @@ You can add the manifest in the "other" tab and adding the new manifest to the l
 
 Link to add: https://raw.githubusercontent.com/hblamo/ludusavi-emudeck-manifest/main/manifest.yml
 
+
+
 ### 2. Update roots (if needed)
 
 If you've installed Emudeck on a seperate drive (or SD card), you'll want to make sure that drive is configured as a "home folder" in Ludusavi. I just duplicated my SD card location. So I had 2, one configured as a steam drive and one configured as a home folder.
