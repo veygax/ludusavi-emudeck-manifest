@@ -187,7 +187,7 @@
         - os: linux
 "Yuzu":
   files:
-    "/Emulation/storage/yuzu/nand/user/save/":
+    "<home>/Emulation/storage/yuzu/nand/user/save/":
       tags:
         - save
       when:
