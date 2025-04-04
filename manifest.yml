@@ -6,14 +6,14 @@
         - save
       when:
         - os: linux
-"Citra":
+"Azahar":
   files:
     "<home>/.var/app/org.citra_emu.citra/data/citra-emu/sdmc":
       tags:
         - save
       when:
         - os: linux
-    "<home>/.var/app/org.citra_emu.citra/data/citra-emu/states":
+    "<home>/.local/share/azahar-emu/states":
       tags:
         - save-states
       when:
@@ -181,13 +181,6 @@
 "Xenia":
   files:
     "<home>/Emulation/roms/xbox360/content":
-      tags:
-        - save
-      when:
-        - os: linux
-"Yuzu":
-  files:
-    "<home>/Emulation/storage/yuzu/nand/user/save/":
       tags:
         - save
       when:
