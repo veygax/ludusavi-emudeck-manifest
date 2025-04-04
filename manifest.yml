@@ -1,14 +1,14 @@
 ---
 "Cemu":
   files:
-    "/run/media/SR128/Emulation/roms/wiiu/mlc01/usr/save":
+    "<home>/Emulation/roms/wiiu/mlc01/usr/save":
       tags:
         - save
       when:
         - os: linux
 "Azahar":
   files:
-    "/run/media/SR128/Emulation/storage/azahar/sdmc/":
+    "<home>/Emulation/storage/azahar/sdmc/":
       tags:
         - save
       when:
@@ -32,60 +32,60 @@
         - os: linux
 "DuckStation":
   files:
-    "/run/media/SR128/Emulation/saves/duckstation/saves":
+    "<home>/Emulation/saves/duckstation/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/duckstation/states":
+    "<home>/Emulation/saves/duckstation/states":
       tags:
         - save-states
       when:
         - os: linux
 "MAME":
   files:
-    "/run/media/SR128/Emulation/saves/MAME/saves":
+    "<home>/Emulation/saves/MAME/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/MAME/states":
+    "<home>/Emulation/saves/MAME/states":
       tags:
         - save-states
       when:
         - os: linux
 "melonDS":
   files:
-    "/run/media/SR128/Emulation/saves/melonds/saves":
+    "<home>/Emulation/saves/melonds/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/melonds/states":
+    "<home>/Emulation/saves/melonds/states":
       tags:
         - save-states
       when:
         - os: linux
 "mGBA":
   files:
-    "/run/media/SR128/Emulation/saves/mgba/saves":
+    "<home>/Emulation/saves/mgba/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/mgba/states":
+    "<home>/Emulation/saves/mgba/states":
       tags:
         - save-states
       when:
         - os: linux
 "PCSX2":
   files:
-    "/run/media/SR128/Emulation/saves/pcsx2/saves":
+    "<home>/Emulation/saves/pcsx2/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/pcsx2/states":
+    "<home>/Emulation/saves/pcsx2/states":
       tags:
         - save-states
       when:
@@ -128,19 +128,19 @@
         - os: linux
 "Rosalie's Mupen GUI":
   files:
-    "/run/media/SR128/Emulation/saves/RMG/saves":
+    "<home>/Emulation/saves/RMG/saves":
       tags:
         - save
       when:
         - os: linux
-    "/run/media/SR128/Emulation/saves/RMG/states":
+    "<home>/Emulation/saves/RMG/states":
       tags:
         - save-states
       when:
         - os: linux
 "RPCS3":
   files:
-    "/run/media/SR128/Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata":
+    "<home>/Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata":
       tags:
         - save
       when:
@@ -159,28 +159,28 @@
         - os: linux
 "ScummVM":
   files:
-    "/run/media/SR128/Emulation/saves/scummvm/saves":
+    "<home>/Emulation/saves/scummvm/saves":
       tags:
         - save
       when:
         - os: linux
 "Vita3K":
   files:
-    "/run/media/SR128/Emulation/storage/Vita3K/ux0/user/00/savedata":
+    "<home>/Emulation/storage/Vita3K/ux0/user/00/savedata":
       tags:
         - save
       when:
         - os: linux
 "Xemu":
   files:
-    "/run/media/SR128/Emulation/storage/xemu":
+    "<home>/Emulation/storage/xemu":
       tags:
         - save
       when:
         - os: linux
 "Xenia":
   files:
-    "/run/media/SR128/Emulation/roms/xbox360/content":
+    "<home>/Emulation/roms/xbox360/content":
       tags:
         - save
       when:
